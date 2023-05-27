@@ -1,25 +1,13 @@
 {
-  "name": "wow",
-  "homepage": "https://github.com/graingert/WOW",
-  "authors": [
-    "Matthieu Aussaguel <matthieu.aussaguel@gmail.com>"
+  "name": "owl.carousel",
+  "version": "2.3.4",
+  "main": [
+    "dist/owl.carousel.js",
+    "dist/assets/owl.carousel.css",
+    "dist/assets/owl.theme.default.css"
   ],
-  "authors": [
-    "Thomas Grainger <wow.js@graingert.co.uk>"
-  ],
-  "description": "Reveal CSS animation as you scroll down a page.",
-  "main": "dist/wow.js",
-  "keywords": [
-    "scroll",
-    "animation",
-    "reveal"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+  "ignore": [],
+  "dependencies": {
+    "jquery": ">= 1.8.3"
+  }
 }
